@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles.css') }}">
+    <title>Phone Tracker</title>
+</head>
+<body>
+    <h1>Phone Tracker</h1>
+    <!-- <h2>Hello {{name}}</h2> -->
+    <form id="login_form" name="pass_number" action="." method="post">
+        <input type="text" class="fields" placeholder="Enter phone number" name="number">
+        <!-- <button type="submit" class="fields2">Create Account</button> -->
+        <input type="submit" value="submit">
+    </form>
+
+    <h3>
+        Call this number to report to the Federal Communications Commission: <br> +1 (888) 225-5322
+    </h3>
+</body>
+</html>
